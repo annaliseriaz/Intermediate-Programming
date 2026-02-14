@@ -1,0 +1,11 @@
+package class_object_pck;
+
+public class MyRecur {
+		static int myValue (int num) {
+			int mul = 0;
+			if (num ==0)
+				return 1;
+			mul = num* myValue(--num);
+			return mul; 
+	}
+}
