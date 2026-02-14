@@ -1,0 +1,15 @@
+package exam;
+
+public class Exam3 {
+
+	public static void main(String[] args) {
+		int a = 12;
+		int b = method(a);
+		System.out.print(b);
+	}
+	
+	static private int method (int param) {
+		System.out.print("Output: ");
+		return param * 3;
+	}
+}
