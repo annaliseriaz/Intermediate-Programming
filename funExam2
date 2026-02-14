@@ -1,0 +1,35 @@
+package exam;
+
+public class Exam2 {
+static int number = 4;
+	public static void main(String[] args) {
+		recursion();
+	}
+	
+	static void recur() {
+		number--;
+		if(number == 0)
+			return;
+		System.out.print(number + " ");
+		recur();
+	}
+	
+	//word.length//
+	static void words() {
+		String word = "You are not a cheater";
+		System.out.print(word.length());
+	}
+	
+	//public class exam, recursion part 2//
+	static void recursion() {
+		reccur(123456789);
+		System.out.print(num);
+	}
+	static int num = 0;
+	static void reccur(int n) {
+		if (n==0)
+			return;
+		num++;
+		reccur(n/10);
+	}
+}
