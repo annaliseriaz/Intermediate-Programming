@@ -1,0 +1,15 @@
+package exam;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		fun(20);
+	}
+	
+	static void fun (int n) {
+		if (n == 0)
+			return;
+		System.out.print(n%2);
+		fun(n/2);
+	}
+}
